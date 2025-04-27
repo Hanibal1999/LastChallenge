@@ -1,0 +1,71 @@
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: left;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+button {
+  padding: 6px 12px;
+  margin: 2px;
+  border: 1px solid #999;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+input, textarea {
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+textarea {
+  height: 100px;
+}
+
+form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+.link-buttons {
+  margin-top: 10px;
+}
+
+.link-buttons button {
+  background-color: #eee;
+  border: 1px solid #aaa;
+  margin-right: 10px;
+}
